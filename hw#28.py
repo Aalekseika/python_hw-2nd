@@ -10,8 +10,7 @@
 
 s=str(input('Random string is:'))
 lst=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r',
-     's','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7','8','9',
-     ' ','!','-','%','@','(',')','=','+','-',':''?''.',',']
+     's','t','u','v','w','x','y','z','0','1','2','3','4','5','6','7',' ','!']
 
 new_string=[]
 for i in range(len(s)):
@@ -26,4 +25,4 @@ for i in range(len(s)):
         new_symbol1 = lst[new_index_lst1]
         new_string+=new_symbol1
 string=''.join(new_string)
-print('Encrypted string is:', string)
+print('Enencrypted string is:', string)
